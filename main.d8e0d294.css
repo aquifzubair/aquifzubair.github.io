@@ -353,8 +353,12 @@ img {
 .img-responsive {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    transition:all 1s;
 }
+.img-responsive:hover{
+      transform:scale(1.1);
+    }
 
 .img-rounded {
     border-radius: 6px
